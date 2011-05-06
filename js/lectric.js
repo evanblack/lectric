@@ -82,7 +82,7 @@
     var itemSelector = '.' + this.opts.itemClassName;
     var itemWrapperSelector = '.' + this.opts.itemWrapperClassName;
 
-    $(target).css('overflow', 'hidden');
+    //$(target).css('overflow', 'hidden');
     $(target).find(itemSelector).css('float', 'left').wrapAll(element);
     $(target).addClass('lectric-slider');
     this.element = $(target).find(itemWrapperSelector);
